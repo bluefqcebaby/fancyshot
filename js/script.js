@@ -20,21 +20,23 @@ testWebP(function (support) {
 
 //Слайдер работ
 const swiperWorks = new Swiper(".works__slider", {
-  slidesPerView: 1.3,
+  slidesPerView: 2.3,
   centeredSlides: true,
-  initialSlide: 1,
-  spaceBetween: 30,
+  spaceBetween: 10,
   breakpoints: {
     628: {
-      slidesPerView: 3,
+      slidesPerView: 2.5,
       initialSlide: 1,
+      centeredSlides: false,
     },
     1000: {
       slidesPerView: 4,
+      initialSlide:1,
     },
     1400: {
       slidesPerView: 5,
       initialSlide: 1,
+      spaceBetween: 30,
     }
   }
 });
