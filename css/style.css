@@ -209,6 +209,29 @@ body {
   padding: 0 15px;
 }
 
+.title {
+  font-family: "ALS Hauss";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.3em;
+  margin-bottom: 16px;
+}
+
+.slide-title {
+  font-family: ALS Hauss;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 .menu {
   position: absolute;
   top: 100%;
@@ -425,29 +448,6 @@ body {
             flex: 1 1 auto;
   }
 }
-.title {
-  font-family: "ALS Hauss";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: 0.3em;
-  margin-bottom: 16px;
-}
-
-.slide-title {
-  font-family: ALS Hauss;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 110%;
-  color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
 .header {
   min-height: 60px;
   display: -webkit-box;
@@ -530,10 +530,21 @@ body {
   position: relative;
   min-width: 154px;
   min-height: 102px;
-  opacity: 0.2;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+  transition: opacity 0.25s, -webkit-transform 0.25s;
+  -o-transition: opacity 0.25s, transform 0.25s;
+  transition: opacity 0.25s, transform 0.25s;
+  transition: opacity 0.25s, transform 0.25s, -webkit-transform 0.25s;
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
+}
+.works__slider-item.slideAnimation {
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 0.3;
 }
 .works__slider-item:last-child .slide-title {
   padding-left: 30px;
@@ -548,7 +559,9 @@ body {
   left: 0;
   bottom: 0;
 }
-.works .swiper-slide-active, .works .swiper-slide-prev, .works .swiper-slide-next {
+.works .swiper-slide-active,
+.works .swiper-slide-prev,
+.works .swiper-slide-next {
   opacity: 1;
 }
 
@@ -559,8 +572,8 @@ body {
     font-family: "ALS Hauss";
   }
 
-  .swiper-wrapper {
-    margin-left: 0;
+  .works__slider-wrapper {
+    margin-left: 10px;
   }
 }
 @media (max-width: 815px) {
