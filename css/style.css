@@ -402,7 +402,7 @@ body {
 .f-line,
 .s-line {
   display: inline-block;
-  height: 13px;
+  height: 11px;
   border-bottom: 1px solid white;
   margin: 0 19px 8px;
   -webkit-animation-name: widthIn;
@@ -589,7 +589,7 @@ body {
   }
 
   .works__slider-wrapper {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 815px) {
