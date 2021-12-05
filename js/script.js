@@ -50,7 +50,7 @@ menuBtn.addEventListener('click', () => {
   body.classList.toggle('scroll-lock');
 });
 
-//анимация появления слайд айтемов
+//анимация появления элементов слайдера
 const sliders = document.querySelectorAll('.works__slider-wrapper')
 let sliderItems = [];
 let check;
@@ -97,4 +97,4 @@ if (sliders.length > 0) {
     sliderItems = [];
   }
 }
-console.log()
+//

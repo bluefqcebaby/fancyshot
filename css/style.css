@@ -4,6 +4,7 @@
   src: local("ALS Hauss Black"), local("ALSHauss-Black"), url("../fonts/ALSHauss-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Black.woff2") format("woff2"), url("../fonts/ALSHauss-Black.woff") format("woff"), url("../fonts/ALSHauss-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss Book";
@@ -11,6 +12,7 @@
   src: local("ALS Hauss Book"), local("ALSHauss-Book"), url("../fonts/ALSHauss-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Book.woff2") format("woff2"), url("../fonts/ALSHauss-Book.woff") format("woff"), url("../fonts/ALSHauss-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -18,6 +20,7 @@
   src: local("ALS Hauss Light"), local("ALSHauss-Light"), url("../fonts/ALSHauss-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Light.woff2") format("woff2"), url("../fonts/ALSHauss-Light.woff") format("woff"), url("../fonts/ALSHauss-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss Book";
@@ -25,6 +28,7 @@
   src: local("ALS Hauss Book Italic"), local("ALSHauss-BookItalic"), url("../fonts/ALSHauss-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-BookItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BookItalic.woff") format("woff"), url("../fonts/ALSHauss-BookItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -32,6 +36,7 @@
   src: local("ALS Hauss Medium"), local("ALSHauss-Medium"), url("../fonts/ALSHauss-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Medium.woff2") format("woff2"), url("../fonts/ALSHauss-Medium.woff") format("woff"), url("../fonts/ALSHauss-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss Hairline";
@@ -39,6 +44,7 @@
   src: local("ALS Hauss Hairline"), local("ALSHauss-Hairline"), url("../fonts/ALSHauss-Hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Hairline.woff2") format("woff2"), url("../fonts/ALSHauss-Hairline.woff") format("woff"), url("../fonts/ALSHauss-Hairline.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -46,6 +52,7 @@
   src: local("ALS Hauss Thin"), local("ALSHauss-Thin"), url("../fonts/ALSHauss-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Thin.woff2") format("woff2"), url("../fonts/ALSHauss-Thin.woff") format("woff"), url("../fonts/ALSHauss-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -53,6 +60,7 @@
   src: local("ALS Hauss Regular Italic"), local("ALSHauss-RegularItalic"), url("../fonts/ALSHauss-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-RegularItalic.woff2") format("woff2"), url("../fonts/ALSHauss-RegularItalic.woff") format("woff"), url("../fonts/ALSHauss-RegularItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -60,6 +68,7 @@
   src: local("ALS Hauss Bold Italic"), local("ALSHauss-BoldItalic"), url("../fonts/ALSHauss-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-BoldItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BoldItalic.woff") format("woff"), url("../fonts/ALSHauss-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -67,6 +76,7 @@
   src: local("ALS Hauss Thin Italic"), local("ALSHauss-ThinItalic"), url("../fonts/ALSHauss-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-ThinItalic.woff2") format("woff2"), url("../fonts/ALSHauss-ThinItalic.woff") format("woff"), url("../fonts/ALSHauss-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -74,6 +84,7 @@
   src: local("ALS Hauss Bold"), local("ALSHauss-Bold"), url("../fonts/ALSHauss-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Bold.woff2") format("woff2"), url("../fonts/ALSHauss-Bold.woff") format("woff"), url("../fonts/ALSHauss-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -81,6 +92,7 @@
   src: local("ALS Hauss Regular"), local("ALSHauss-Regular"), url("../fonts/ALSHauss-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-Regular.woff2") format("woff2"), url("../fonts/ALSHauss-Regular.woff") format("woff"), url("../fonts/ALSHauss-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -88,6 +100,7 @@
   src: local("ALS Hauss Medium Italic"), local("ALSHauss-MediumItalic"), url("../fonts/ALSHauss-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-MediumItalic.woff2") format("woff2"), url("../fonts/ALSHauss-MediumItalic.woff") format("woff"), url("../fonts/ALSHauss-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -95,6 +108,7 @@
   src: local("ALS Hauss Light Italic"), local("ALSHauss-LightItalic"), url("../fonts/ALSHauss-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-LightItalic.woff2") format("woff2"), url("../fonts/ALSHauss-LightItalic.woff") format("woff"), url("../fonts/ALSHauss-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss Hairline";
@@ -102,6 +116,7 @@
   src: local("ALS Hauss Hairline Italic"), local("ALSHauss-HairlineItalic"), url("../fonts/ALSHauss-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-HairlineItalic.woff2") format("woff2"), url("../fonts/ALSHauss-HairlineItalic.woff") format("woff"), url("../fonts/ALSHauss-HairlineItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "ALS Hauss";
@@ -109,6 +124,7 @@
   src: local("ALS Hauss Black Italic"), local("ALSHauss-BlackItalic"), url("../fonts/ALSHauss-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSHauss-BlackItalic.woff2") format("woff2"), url("../fonts/ALSHauss-BlackItalic.woff") format("woff"), url("../fonts/ALSHauss-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
+  font-display: swap;
 }
 html {
   -webkit-box-sizing: border-box;
@@ -536,9 +552,9 @@ body {
   -o-transition: opacity 0.25s, transform 0.25s;
   transition: opacity 0.25s, transform 0.25s;
   transition: opacity 0.25s, transform 0.25s, -webkit-transform 0.25s;
-  -webkit-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-          transform: translateY(10px);
+  -webkit-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+          transform: translateY(30px);
 }
 .works__slider-item.slideAnimation {
   -webkit-transform: translateY(0px);
